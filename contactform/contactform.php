@@ -48,9 +48,9 @@ $message = $_POST['message'];
   #####################################*/
 
 //Include required PHPMailer files
-	require '../lib/php-mail-form/phpmailer/PHPMailer.php';
-	require '../lib/php-mail-form/phpmailer/SMTP.php';
-	require '../lib/php-mail-form/phpmailer/Exception.php';
+	require './phpmailer/PHPMailer.php';
+	require './phpmailer/SMTP.php';
+	require './phpmailer/Exception.php';
 //Define name spaces
 	use PHPMailer\PHPMailer\PHPMailer;
 	use PHPMailer\PHPMailer\SMTP;
